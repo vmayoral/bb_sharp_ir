@@ -1,7 +1,11 @@
-bb_sharp_IR
+bb_sharp_ir
 ==========
 
-This ROS package publishes the Sharp IR gp2y0a12 sensor values to a ROS topic.
+![Sharp GP2Y0A21 Distance Sensor (10-80cm)](http://www.dfrobot.com/image/cache/data/SEN0014/SEN0014-340x340.jpg)
+
+This ROS package publishes the Sharp IR sensors values to a ROS topic. For now the following sensors are supported:
+
+*  GP2Y0A21 Distance Sensor (10-80cm) [`scripts/GP2Y0A21YK0F.py`]
 
 -----------
 
