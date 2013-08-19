@@ -17,6 +17,6 @@ include_directories(include
     ${catkin_INCLUDE_DIRS}
 )
 
-install(PROGRAMS scripts/GP2Y0A21YK0F.py
+install(PROGRAMS scripts/GP2Y0A21YK0F.py scripts/GP2Y0D810Z0F.py scripts/GP2Y0D805Z0F
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
 

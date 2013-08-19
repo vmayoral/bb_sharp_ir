@@ -5,16 +5,16 @@ import Adafruit_BBIO.GPIO as GPIO
 
 # Sensor connected to P8_14
 
-def GP2Y0D810Z0F():
+def GP2Y0D805Z0F():
     GPIO.setup("P8_14", GPIO.IN)
-    pub = rospy.Publisher('ir_sharp_10cm', String)
-    rospy.init_node('GP2Y0D810Z0F_node')
+    pub = rospy.Publisher('ir_sharp_5cm', String)
+    rospy.init_node('GP2Y0D805Z0F_node')
     r = rospy.Rate(10) # 10hz
     while not rospy.is_shutdown():
         if GPIO.input("P8_14"):
             r.sleep()
         else:
-            cad = "GP2Y0D810Z0F (10cm): object detected" 
+            cad = "GP2Y0D805Z0F (5cm): object detected" 
             rospy.loginfo(cad)
             pub.publish(String(measure))
             #rospy.sleep(1.0)
@@ -22,7 +22,7 @@ def GP2Y0D810Z0F():
 
 if __name__ == '__main__':
     try:
-        GP2Y0D810Z0F()
+        GP2Y0D805Z0F()
     except rospy.ROSInterruptException:
         pass
 
