@@ -8,7 +8,7 @@ import Adafruit_BBIO.ADC as ADC
 def gp2y0a12():
     ADC.setup()
     pub = rospy.Publisher('ir_sharp_80cm', String)
-    rospy.init_node('gp2y0a12_node')
+    rospy.init_node('gp2y0a21yk0f')
     r = rospy.Rate(10) # 10hz
     while not rospy.is_shutdown():
         measure = str(ADC.read_raw("P9_40"))

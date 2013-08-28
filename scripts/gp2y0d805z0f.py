@@ -8,7 +8,7 @@ import Adafruit_BBIO.GPIO as GPIO
 def GP2Y0D805Z0F():
     GPIO.setup("P8_14", GPIO.IN)
     pub = rospy.Publisher('ir_sharp_5cm', String)
-    rospy.init_node('GP2Y0D805Z0F_node')
+    rospy.init_node('gp2y0d805z0f')
     r = rospy.Rate(10) # 10hz
     while not rospy.is_shutdown():
         if GPIO.input("P8_14"):
