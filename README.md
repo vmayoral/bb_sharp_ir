@@ -1,9 +1,8 @@
 bb_sharp_ir
 ==========
 
-![Sharp GP2Y0A21 Distance Sensor (10-80cm)](http://www.dfrobot.com/image/cache/data/SEN0014/SEN0014-340x340.jpg)
 
-![Sharp GP2Y0D810Z0F Distance Sensor](http://www.ec.in.th/image/cache/data/Sensors/GP2Y0D810Z0F-500x500.jpg)
+<img src="https://raw.github.com/vmayoral/beagle-ros/master/docs/images/bb_sharp_ir_bb.png" width="400px" />
 
 This ROS package publishes the Sharp IR sensors values to a ROS topic. For now the following sensors are supported:
 
