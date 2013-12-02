@@ -1,6 +1,13 @@
 bb_sharp_ir
 ==========
 
+--------
+
+**Some issues have been notified regarding the voltage levels. Note that the BB and BBB ADC are 1.8 Volts maximum.**
+
+--------
+
+
 
 <img src="https://raw.github.com/vmayoral/beagle-ros/master/docs/images/bb_sharp_ir_bb.png" width="400px" />
 
